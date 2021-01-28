@@ -8,8 +8,8 @@ public class practice{
 		char c;
 		for(int i = 0; i < str2.length();i++) {
 			c = str2.charAt(i);
-			if(48 <= c && c <= 57) {
-				str3.
+			if((97 <= c && c <= 122) == false) {
+				str2 = str2.substring();
 			}
 		}
 		
