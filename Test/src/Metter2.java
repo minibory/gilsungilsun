@@ -53,8 +53,8 @@ public class Metter2 {
 			}
 			
 		});
-		j1.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+		j1.addMouseListener(new MouseAdapter() {
+			public void Clicked() {
 				System.out.println("ÀÚ¹Ù!!");
 			}
 		});
